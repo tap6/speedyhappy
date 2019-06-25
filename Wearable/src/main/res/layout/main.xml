@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:weightSum="2">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.0"
+		android:weightSum="2">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<ImageButton
+				android:src="@drawable/qsbk"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:id="@+id/mainImageButton_qsbk"
+				android:scaleType="fitXY"
+				android:onClick="div"
+				android:background="#FFFFFF"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="糗事百科"
+				android:id="@+id/mainTextView1"
+				android:layout_margin="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<ImageButton
+				android:src="@drawable/bsbdj"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:id="@+id/mainImageButton_bsbdj"
+				android:scaleType="fitXY"
+				android:onClick="div"
+				android:background="#FFFFFF"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="百思不得姐"
+				android:id="@+id/mainTextView2"
+				android:layout_margin="5dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.0">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<ImageButton
+				android:src="@drawable/zy"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:id="@+id/mainImageButton_zy"
+				android:scaleType="fitXY"
+				android:onClick="div"
+				android:background="#FFFFFF"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="最右"
+				android:id="@+id/mainTextView3"
+				android:layout_margin="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center">
+
+			<ImageButton
+				android:src="@drawable/setting_1"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:id="@+id/mainImageButton_setting"
+				android:scaleType="fitXY"
+				android:onClick="div"
+				android:background="#FFFFFF"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:id="@+id/mainTextView4"
+				android:layout_margin="5dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
